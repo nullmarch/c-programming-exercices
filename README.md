@@ -47,3 +47,36 @@ balance = previous_balance × (1 + monthly_rate) - payment
 ### Source
 Exercise from Chapter 2 — *C Programming: A Modern Approach* 
 (2nd Edition) by K.N. King
+
+
+---
+
+## Exercise 2 — Bill Denomination Calculator
+
+**Source:** Chapter 2, Exercise 7 — *C Programming: A Modern Approach*
+
+### What It Does
+Takes a U.S. dollar amount and calculates the minimum number 
+of $20, $10, $5, and $1 bills needed to make exact change.
+
+### Example Output
+
+Enter a U.S. dollar amount: 93
+$20 bills: 4
+$10 bills: 1
+$5 bills: 0
+$1 bills: 3
+
+### Concepts Demonstrated
+- Integer division for denomination calculation
+- Sequential remainder reduction — subtract used amount 
+  before calculating next denomination
+- Greedy algorithm — always use largest denomination first
+
+### What I Learned
+- Integer division truncates decimals — essential for 
+  counting whole bills
+- The order of operations matters — largest denomination 
+  must be calculated first
+- Subtracting the used amount before moving to the next 
+  denomination is the key insight of the greedy approach
