@@ -88,3 +88,45 @@ $1 bills: 3
 ### Source
 Exercise from Chapter 2 — *C Programming: A Modern Approach* 
 (2nd Edition) by K.N. King
+
+
+---
+
+## Exercise 3 — Polynomial Evaluation & Horner's Rule
+
+**Source:** Chapter 2, Exercises 5 & 6 — *C Programming: A Modern Approach*
+
+### What It Does
+Evaluates the polynomial `3x⁵ + 2x⁴ – 5x³ – x² + 7x – 6` 
+for a user-provided value of x.
+
+### Two Approaches
+
+**Exercise 5 — Brute Force (commented in code):**
+
+```c
+x1 = 3 * (x * x * x * x * x);
+x2 = 2 * (x * x * x * x);
+// ...
+````
+
+Computes each power of x through repeated multiplication.
+
+Exercise 6 — Horner's Rule (active solution):
+
+````c
+((((3x + 2)x – 5)x – 1)x + 7)x – 6
+````
+
+Rewrites the polynomial to eliminate repeated multiplication —
+fewer operations, same result.
+
+## What I Learned
+- C has no exponentiation operator — powers require
+repeated multiplication
+- Horner's Rule reduces the number of multiplications
+significantly for large polynomials
+- Keeping the original solution commented documents
+the thought process and optimization journey
+- Both approaches produce identical results — the
+difference is computational efficiency
