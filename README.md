@@ -84,3 +84,7 @@ $1 bills: 3
   must be calculated first
 - Subtracting the used amount before moving to the next 
   denomination is the key insight of the greedy approach
+
+### Source
+Exercise from Chapter 2 — *C Programming: A Modern Approach* 
+(2nd Edition) by K.N. King
