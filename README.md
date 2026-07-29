@@ -4,6 +4,18 @@ Exercises from **"C Programming: A Modern Approach"** by K.N. King —
 one of the most respected C programming textbooks.
 
 ---
+## Compiling and Running
+
+These programs are compiled using GCC on Linux (Ubuntu) rather 
+than an IDE, reinforcing command-line fundamentals.
+
+### Compile:
+```bash
+gcc -o output_name source_file.c
+./output_name
+gcc -o loan_balance loan_balance.c
+./loan_balance
+
 
 ## Exercise 1 — Loan Balance Calculator
 
