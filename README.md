@@ -15,7 +15,7 @@ gcc -o output_name source_file.c
 ./output_name
 gcc -o loan_balance loan_balance.c
 ./loan_balance
-
+```
 
 ## Exercise 1 — Loan Balance Calculator
 
