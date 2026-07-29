@@ -20,6 +20,7 @@ annual interest rate, and monthly payment amount.
 
 ### The Math
 monthly_rate = annual_rate / 100 / 12
+
 balance = previous_balance × (1 + monthly_rate) - payment
 
 ### What I Learned
