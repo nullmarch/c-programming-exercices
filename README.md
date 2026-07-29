@@ -62,9 +62,13 @@ of $20, $10, $5, and $1 bills needed to make exact change.
 ### Example Output
 
 Enter a U.S. dollar amount: 93
+
 $20 bills: 4
+
 $10 bills: 1
+
 $5 bills: 0
+
 $1 bills: 3
 
 ### Concepts Demonstrated
